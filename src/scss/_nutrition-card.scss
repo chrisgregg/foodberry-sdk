@@ -1,0 +1,48 @@
+.foodberry-card {
+  background:#fff;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  border-radius:3px;
+  border:1px solid #ccd;
+}
+
+/* Nutrition Card */
+.nutrition-card {
+
+  padding:15px;
+  font-size:0.8em;
+  background-color:#fbfbfb;
+
+  .card-title {
+    font-size: 1.4em;
+    margin-bottom:15px;
+  }
+
+  ul.nutrients {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+      margin:0;
+      padding:0;
+      padding:10px 0;
+      border-bottom:1px solid #ececec;
+      span {
+        display: inline-block;
+        &.nutrient-name {
+           min-width:135px;
+           text-transform:uppercase;
+         }
+      }
+    }
+  }
+
+  .credit {
+    padding:15px;
+    text-align: right;
+    color:#bbb;
+  }
+
+
+}
+
