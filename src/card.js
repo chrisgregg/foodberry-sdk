@@ -46,7 +46,7 @@ module.exports = class Card {
                 let testing = document.createElement('div');
                 testing.className = 'testing';
                 testing.innerHTML = '<a href="https://foodapis.azurewebsites.net/portal/recipe-cards/nutrition/'+data._id+'">edit</a>';
-
+                container.appendChild(testing);
             });
         }
 

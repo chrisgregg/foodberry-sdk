@@ -53,7 +53,7 @@ module.exports = class NutritionCard extends Card {
             req.setRequestHeader("Content-Type", "application/json");
 
             req.onload = function() {
-                if (req.status == 200) {
+                if (req.status === 200) {
                     // Resolve the promise with the response text
                     resolve(JSON.parse(req.response).data);
                 }
